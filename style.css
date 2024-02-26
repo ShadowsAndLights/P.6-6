@@ -1,0 +1,476 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 3.0.0.1707231827
+Updated: 2024-02-06 16:03:47
+
+*/
+
+
+
+
+
+/* Agencement au niveau de la barre de navigation pour le bouton "Commander" */
+#site-header {
+    padding-left: 37px !important;
+    padding-block-start: 0 !important;
+    padding-block-end: 0 !important;
+    margin: 0 !important;
+}
+
+.site-logo.show a.custom-logo-link{
+    padding-top: 5px;
+    height: 50px;
+}
+
+.site-navigation.show ul li {
+     height: 80px; /*modification de la hauteur de la barre de navigation comprennant ren+com*/
+     justify-content: space-between;
+}
+
+.site-navigation.show .menu-principal-container ul li{
+      align-items: center; /* centrer elts barre nav*/
+}
+
+.site-header:not(.header-stacked) .header-inner nav.site-navigation{
+      max-width: 100%;
+      align-items: center;
+}
+
+li#menu-item-2217{
+      margin-right: 45px; /* marge à droite de "nous rencontrer"*/
+}
+
+li#menu-item-2045 {
+  background: #E0B9B4; /*arrière plan coloré "commander"*/
+  align-items: center;
+  width: 236 px;
+  height: 80 px;
+  padding: 0;
+  margin: 0;
+}
+
+li#menu-item-2045.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-2045:hover {
+    background-color: #C02E44; /*effet survol item commander*/
+} 
+
+li#menu-item-2045.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-2045 {
+     width: 236px; /*réglage largeur pour "commander*/ 
+     justify-content: center; 
+     margin: 0;
+}
+
+.site-header .site-navigation ul.menu li#menu-item-2045 a {
+     color: #ffffff;/*couleur police "commander"*/
+}
+
+
+ 
+
+
+
+/* Agencement formulaire contact (contact form 7) "Nous contacter" avec id et class */
+#wpcf7-f2670-p2031-o1 {
+    align-items: center;
+    font-family: Syne;
+    color: black;
+}
+
+.elementor-widget-container {
+    align-content: center;
+}
+
+/* Style du texte dénomination des trois champs dans "Nous contacter"*/
+.elementor-kit-955 label.style_text {
+    font-family: Syne;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-bottom: 22px;
+}
+
+/* agencement des champs nom et email*/
+.wpcf7-form-control.wpcf7-text {
+    width: 383px;
+    height: 71px;
+    padding: 0px;
+    margin-top: 13px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 14px 0px #0000000A;
+}
+
+/* agencement du champ message*/
+.wpcf7-form-control.wpcf7-textarea{
+    width: 383px;
+    height: 237px;
+    padding: 0px;
+    margin-top: 13px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 14px 0px #0000000A;
+}
+
+
+/*Personnalisation bouton envoyer dans "Nous contacter" */
+input.wpcf7-form-control.wpcf7-submit.has-spinner {
+    align-items: center;
+    width: 198px; /*largeur bouton*/
+    height: 55px; /*hauteur bouton*/
+    background: #E0B9B4; /* couleur arrière-plan */
+    color: #ffffff; /* couleur de police */
+    font-family: Syne; /*Nom de la police*/
+    font-size: 15px; /* taille police */
+    font-weight: 400; /* police grasse */
+    line-height: 37px; /* hauteru lettres*/
+    letter-spacing: 0em; /*espacement lettres*/
+    text-align: center; /*texte centré*/
+    padding: 9px 0 9px 0; /* marge interne en haut & bas + à droite & gauche */
+    border-radius: 5px; /* rayon de la bordure */
+    border: 0;  /* Pas de bordure */
+    margin-top: 2px;
+}
+
+
+div .submit-Button{
+/*centrer le bouton*/ 
+    display: flex;  
+    justify-content: center;
+    border: none;
+}
+
+input.wpcf7-form-control.wpcf7-submit.has-spinner:hover{
+    background: #C02E44;
+}
+
+div .wpcf7-spinner.wpcf7-spinner{
+/*espace à faire disparaitre à côté du bouton envoyer*/ 
+     margin: 0 !important;
+     padding: 0 !important;
+     width: 0;
+     height:0;
+}
+
+
+
+/*Agencement formulaire de commande 2 */
+.All-form{
+    display: flex;
+    flex-direction: columns;
+    margin-left: 140px;
+}
+
+.column1{
+    padding-right: 45px;
+    margin-right: 35px;
+    margin-left: 40px;
+}
+
+.column2{
+    /*padding-right: 50px;*/
+    padding-left: 45px;
+    margin-right: 200px;
+    margin-left: 35px; 
+}
+
+div .TitleColumn{
+    font-family: 'Syne',sans serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 29px; /*padding entre bas column1&2 et Nom/Adresse*/
+}
+
+div .field p{
+    margin-bottom: 0;
+}
+
+div .field{
+    padding-bottom: 30px; /*distance entre champ et intitulé "Prénom, email,cp et ville */
+}
+
+div .submitButton-Command{
+    font-family: Syne;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-content: center;
+}
+
+/*Agencement du bouton commander */
+div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
+    padding: 0;
+    margin: 0;
+    width: 198px;
+    height: 55px;
+}
+
+
+div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner:hover{
+    background: #C02E44;
+}
+
+/* Agencement de la barre de séparation verticale */
+div span.v-separator{
+    width: 447px;
+    height: 492spx;
+    position: absolute;
+    border-left: 1px solid white;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Modification taille main page*/
+.elementor-2034 .elementor-element.elementor-element-49d4a9c:not(.elementor-motion-effects-element-type-background), .elementor-2034 .elementor-element.elementor-element-49d4a9c > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+    width:100% !important;
+    max-width: 100%;
+    margin-right: 0 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0 !important;
+    padding-left: 29.188px !important;
+    padding-right: 29.203px !important;
+}
+  
+/* Modification marge divider 1 page commander*/
+.elementor-2034 .elementor-element.elementor-element-39cdb24 .elementor-divider{
+     /*margin: 0 290px 0 290px;*/
+}
+
+
+/*Modification des cases de quantité commande*/
+div.elementor-shortcode #quantity{
+    width: 54px;
+    height: 60px;
+    top: 523px;
+    left: 813px;
+    border-radius: 0;
+    justify-content: center;
+    border: none;
+}
+
+div.elementor-shortcode #quantity{
+    font-family: 'Inter', sans serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    padding: 0;
+}
+
+/* Ajout lien mention légale qui renvoi vers page d'accueil */
+ 
+
+
+
+/*Ordonnée la position du crochet Admin dans barre nav */
+.site-header .site-navigation .menu li#AdminLink > a{
+    width: 60px;
+    height: 19px;
+    color: black;
+    font-family: Syne;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-content: center;
+    border:0;
+    margin-right: 45px;
+    padding: 0px 15px;
+}
+
+
+
+site-header .site-navigation .menu li#AdminLink > a{
+    display: flex !important;
+    order: 0 !important;
+}
+
+
+
+/***********  Réglage pages responsive ***********/
+
+/* Media query écran large 1440px */
+@media screen and (min-width: 1440px) {
+  body {
+     min-width: 1440px;
+  }
+
+}
+
+
+/* Media query écran large 1023px */
+@media screen and (max-width: 1023px){
+    body {
+      min-width: 1023px;
+  }
+  
+        /***** Barre Menu nav + logo *****/  
+    .site-logo.show a.custom-logo-link{
+     padding-top: 5px;
+     height: 50px;
+  }
+
+    .site-navigation.show ul li {
+     max-width: 1023px;
+     height: 80px; /*modification de la hauteur de la barre de navigation comprennant ren+com*/
+     /*justify-content: space-between;*/
+  }
+
+
+
+        /***** Page commander *****/
+  /* Section carré arômes */
+  .elementor-2034 .elementor-element.elementor-element-44d9baf{
+     margin-inline-start: 10px;
+
+  }
+
+  /*agencement poice formulaire deux colonnes*/
+  div .TitleColumn{
+    font-family: 'Syne',sans serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  /* agencement bouton commande formulaire */
+  div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
+     padding: 0;
+     margin-left: 550px;
+     width: 198px;
+     height: 55px;
+  }
+
+
+
+}
+
+
+
+
+
+/* Media query écran mobile 320px */
+@media screen and (min-width: 320px) and (max-width: 767px){
+  body {
+    min-width: 320px;
+    max-width: 767px;
+    /*margin-right: 0 !important;*/
+  }
+
+
+/***** Page accueil *****/
+   .elementor-2026 .elementor-element.elementor-element-49a19ca.e-co{
+     min-width: 320px;
+     max-width: 767px;
+  }
+
+
+/**** Personnalisation bouton envoyer dans "Nous contacter" ***/
+  input.wpcf7-form-control.wpcf7-submit.has-spinner {
+    margin-top: 2px;
+    margin-left: 45px;
+}
+
+
+  div .submit-Button{
+  /*centrer le bouton*/ 
+    display: flex;  
+    justify-content: center;
+    border: none;
+}
+
+  input.wpcf7-form-control.wpcf7-submit.has-spinner:hover{
+    background: #C02E44;
+}
+
+  div .wpcf7-spinner.wpcf7-spinner{
+  /*espace à faire disparaitre à côté du bouton envoyer*/ 
+     margin: 0 !important;
+     padding: 0 !important;
+     width: 0;
+     height:0;
+}
+
+
+/**** Agencement formulaire commander ****/
+  .All-form{
+    display: block;
+    margin-left: 185px;
+}
+
+  .column1{
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+  .column2{
+    /*padding-right: 50px;*/
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px; 
+}
+
+  div .TitleColumn{
+    font-family: 'Syne',sans serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 85px;
+}
+  
+  element.style label #style_livraison.TitleColumn{
+    padding-left: 110px !important;/*pour centrer Livraison*/
+}
+
+
+/* Agencement de la barre de séparation verticale dans page commander */
+  div span.v-separator{
+     width: 860px;
+     height: 490px;
+     /*display: flex;*/
+     position: relative;
+     flex-direction: initial;
+     border-left: 1px solid #3B8E46;
+     margin: 0;
+     padding: 0;
+}
+
+  div span.v-separator{
+     max-widht: 247px !important;
+}    
+  
+/* Agencement du bouton commander */
+  div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
+     padding: 0;
+     margin-left: 270px;
+     width: 198px;
+     height: 55px;
+}
+
+
+}
+ 
+
+
