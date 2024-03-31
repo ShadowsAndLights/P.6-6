@@ -49,8 +49,8 @@ li#menu-item-2217{
 li#menu-item-2045 {
   background: #E0B9B4; /*arrière plan coloré "commander"*/
   align-items: center;
-  width: 236 px;
-  height: 80 px;
+  width: 236px;
+  height: 80px;
   padding: 0;
   margin: 0;
 }
@@ -161,7 +161,7 @@ div .wpcf7-spinner.wpcf7-spinner{
 /*Agencement formulaire de commande 2 */
 .All-form{
     display: flex;
-    flex-direction: columns;
+    flex-direction: column;
     margin-left: 140px;
 }
 
@@ -222,9 +222,9 @@ div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner:hove
 
 /* Agencement de la barre de séparation verticale */
 div span.v-separator{
-    width: 447px;
-    height: 492spx;
-    position: absolute;
+    display: block;
+    height: 492px;
+    transform: rotate(180deg);
     border-left: 1px solid white;
     margin: 0;
     padding: 0;
@@ -283,7 +283,7 @@ div.elementor-shortcode #quantity{
     color: black;
     font-family: Syne;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
@@ -458,7 +458,7 @@ site-header .site-navigation .menu li#AdminLink > a{
 }
 
   div span.v-separator{
-     max-widht: 247px !important;
+     max-widtt: 247px !important;
 }    
   
 /* Agencement du bouton commander */
