@@ -14,8 +14,8 @@ Updated: 2024-02-06 16:03:47
 
 
 
-
-          /* Ajout de mes styles  */
+ 
+ /* Ajout de mes styles  */
 
 
     /***** Agencement général menu principal *****/
@@ -136,8 +136,6 @@ li#AdminLink{
 }
 
 
-
-
     /***** Agencement pied de page lien *****/
 a.link_hidden {
      width: 119px;
@@ -169,9 +167,7 @@ a.link_hidden {
 
 
 
-
-
-    /***** Agencement général de la page 'Nous contacter' et du formulaire de contact *****/
+   /***** Agencement général de la page 'Nous contacter' et du formulaire de contact *****/
 
 /* Agencement formulaire contact (contact form 7) "Nous contacter" avec id et class */
 #wpcf7-f2670-p2031-o1 {
@@ -255,8 +251,6 @@ div .wpcf7-spinner.wpcf7-spinner{
      width: 0;
      height:0;
 }
-
-
 
 
 
@@ -351,7 +345,8 @@ div span.v-separator{
     padding-left: 29.188px !important;
     padding-right: 29.203px !important;
 }
-  
+ 
+
 /* Modification marge divider n°1 de la page 'Commander' */
 .elementor-2034 .elementor-element.elementor-element-39cdb24 .elementor-divider{
      /*margin: 0 290px 0 290px;*/
@@ -381,13 +376,6 @@ div.elementor-shortcode #quantity{
 }
 
 
-    
-
-
-
-
-
-
 
 
 /***********  Réglage pages responsive ***********/
@@ -405,9 +393,9 @@ div.elementor-shortcode #quantity{
   .elementor-2026 .elementor-element.elementor-element-6d80fda{
      max-width: 2500px;
   } 
-
 }
-  
+ 
+
 
 /*****************************************************************/
          /* Media query écran large 1440px */
@@ -427,10 +415,7 @@ div.elementor-shortcode #quantity{
      div .submit-Button{
        margin-bottom: 55px;
      }  
-
 }
-
-
 
 
 
@@ -462,8 +447,6 @@ div.elementor-shortcode #quantity{
       margin-inline-start: 0px;
       margin-inline-end: 220px;
     }
-
-
 }
 
 
@@ -538,7 +521,6 @@ div.elementor-shortcode #quantity{
       background-image: url(http://wordpresslocal/wp-content/uploads/2024/02/Group-16-150x150.png);
       background-position: 27px 476px !important;
     }
-
 }  
 
 
@@ -594,7 +576,6 @@ div.elementor-shortcode #quantity{
     .elementor-2026 .elementor-element.elementor-element-fc5a3c0 {
        width: 100%;
     }
-
 }
 
 
@@ -631,7 +612,6 @@ div.elementor-shortcode #quantity{
       margin-inline-start: 35% !important; /*660px*/ 
       margin-inline-end: -75% !important; /*660px*/
     } 
-
 }
 
 
@@ -667,7 +647,6 @@ div.elementor-shortcode #quantity{
       margin-inline-start: 36% !important; /*660px*/ 
       margin-inline-end: -73% !important; /*660px*/
     } 
-
 }
 
 
@@ -746,7 +725,7 @@ div.elementor-shortcode #quantity{
 
 /*********************************************************************************/
 
-    /* Media query écran mobile */
+    /* Media query écran mini-tablette */
 @media screen and (min-width: 601px) and (max-width: 659px) {
     body {
        width: 100%;
@@ -933,9 +912,6 @@ div.elementor-shortcode #quantity{
       margin-inline-start: 0%;
       margin-inline-end: 54%; /*357px*/
     }  
-    
-    
-    /* Page NOUS CONTACTER */  
   
 }
 
@@ -1090,7 +1066,7 @@ div.elementor-shortcode #quantity{
 
 /*********************************************************************************/
 
-    /* Media query écran mobile */
+    /* Media query tablette */
 @media screen and (min-width: 768px) and (max-width: 886px) {
     body {
        width: 100%;
@@ -1163,9 +1139,8 @@ div.elementor-shortcode #quantity{
 
 
 /*********************************************************************************/
-/*********************************************************************************/
 
-    /* Media query écran mobile */
+    /* Media query tablette */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     body {
        width: 100%;
@@ -1198,151 +1173,36 @@ div.elementor-shortcode #quantity{
 
 
 /*********************************************************************************/
-
-/*@media screen and (max-width: 767px){*/
-
-/***** Page COMMANDER *****/
-    /* Mise en forme du formulaire en une seule colonne */ 
-    /*.All-form{
-      display: flex;
-      flex-direction: column;
-      margin-left: 0px;
-    }
-    
-    .column1 {
-      padding-right: 0;
-      margin-right: 0;
-      margin-left: 50px;
-      width: 315px;
-    }
-
-    .column2 {*/
-    /* padding-right: 50px; */
-      /*padding-left: 0;
-      margin-right: 0;
-      margin-left: 50px;
-      margin-top: 0;
-      width: 315px;
-    }
-
-
-    div span.v-separator {
-      display: flex;
-      width: 99%;
-      height: 330px !important;
-      transform: rotate(90deg);
-      border-left: 2px solid #FFFFFF !important;
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: -220px !important;
-      margin-left: 120px !important;
-      padding: 0 !important;
-    }*/
-
-
-    /* Formulaire de commande - police*/
-    div .TitleColumn {
-       font-family: 'Syne',sans serif;
-       font-size: 30px;
-       font-weight: 700;
-       line-height: 36px;
-       letter-spacing: 0em;
-       text-align: center;
-       color: #FFFFFF;
-       padding-bottom: 29px;
-       padding-left: 38px;
-    }
-
-
-    /* Agencement du bouton commander */
-    /*div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
-       padding: 0;
-       margin-left: 145px;
-       width: 198px;
-       height: 55px;
-    }*/
-}
-
-
-
-/*********************************************************************************/
-
-    /* Media query écran mobile */
-@media screen and (min-width: 748px) and (max-width: 767px) {
+    /* Media query écran tablette */
+@media screen and (min-width: 750px) and (max-width: 767px) {
     body {
        width: 100%;
        margin: 0 !important;
     }
 
-    /* Page COMMANDER */
-    /* Mise en forme du formulaire en une seule colonne */ 
-    /*.All-form{
-      display: flex;
-      flex-direction: column;
-      margin-left: 0px;
-    }
-    
-    .column1 {
-      padding-right: 0;
-      margin-right: 0;
-      margin-left: 50px;
-      width: 315px;
+      /* Page COMMANDER */
+    /* Mise en forme du formulaire en deux colonnes */ 
+    .elementor-2034 .elementor-element.elementor-element-64234fa.e-con {
+       align-self: center;
+       transform: translate(-130px, 45px) !important;
+       transform: scale(1.1);
     }
 
-    .column2 {*/
-    /* padding-right: 50px; */
-      /*padding-left: 0;
-      margin-right: 0;
-      margin-left: 50px;
-      margin-top: 0;
-      width: 315px;
-    }
-
-
-    div span.v-separator {
-      display: flex;
-      width: 99%;
-      height: 330px !important;
-      transform: rotate(90deg);
-      border-left: 2px solid #FFFFFF !important;
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: -220px !important;
-      margin-left: 120px !important;
-      padding: 0 !important;
-    }*/
-
-
-    /* Formulaire de commande - police*/
-    div .TitleColumn {
-       font-family: 'Syne',sans serif;
-       font-size: 30px;
-       font-weight: 700;
-       line-height: 36px;
-       letter-spacing: 0em;
-       text-align: center;
-       color: #FFFFFF;
-       padding-bottom: 29px;
-       padding-left: 38px;
-    }
-
-
-    /* Agencement du bouton commander */
-    /*div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
+       /* Agencement du bouton commander */
+    div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
        padding: 0;
-       margin-left: 145px;
+       margin-left: 547px;
        width: 198px;
        height: 55px;
-    }*/
-
-}
+    }
+} 
 
 
 
 /*********************************************************************************/
 
-    /* Media query écran mobile */
-@media screen and (min-width: 718px) and (max-width: 747px) {
+    /* Media query écran tablette */
+@media screen and (min-width: 738px) and (max-width: 749px) {
     body {
        width: 100%;
        margin: 0 !important;
@@ -1350,113 +1210,10 @@ div.elementor-shortcode #quantity{
 
     /* Page COMMANDER */
     /* Mise en forme du formulaire en deux colonnes */ 
-    /*.All-form{
-      display: flex;
-      flex-direction: column;
-      margin-left: 0px;
-    }
-    
-    .column1 {
-      padding-right: 0;
-      margin-right: 0;
-      margin-left: 50px;
-      width: 315px;
-    }
-
-    .column2 {*/
-    /* padding-right: 50px; */
-      /*padding-left: 0;
-      margin-right: 0;
-      margin-left: 50px;
-      margin-top: 0;
-      width: 315px;
-    }
-
-
-    div span.v-separator {
-      display: flex;
-      width: 99%;
-      height: 330px !important;
-      transform: rotate(90deg);
-      border-left: 2px solid #FFFFFF !important;
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: -220px !important;
-      margin-left: 120px !important;
-      padding: 0 !important;
-    }*/
-
-
-    /* Formulaire de commande - police*/
-    div .TitleColumn {
-       font-family: 'Syne',sans serif;
-       font-size: 30px;
-       font-weight: 700;
-       line-height: 36px;
-       letter-spacing: 0em;
-       text-align: center;
-       color: #FFFFFF;
-       padding-bottom: 29px;
-       padding-left: 38px;
-    }
-
-
-    /* Agencement du bouton commander */
-    /*div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
-       padding: 0;
-       margin-left: 145px;
-       width: 198px;
-       height: 55px;
-    }*/
-
-}
-
-
-
-/*********************************************************************************/
-/* Media query écran mobile */
-@media screen and (min-width: 660px) and (max-width: 697px) {
-    body {
-       width: 100%;
-       margin: 0 !important;
-    }
-
-    /* Page COMMANDER */
-    /* Mise en forme du formulaire en une seule colonne */ 
-    .All-form{
-      display: flex;
-      flex-direction: column;
-      margin-left: 0px;
-    }
-    
-    .column1 {
-      padding-right: 0;
-      margin-right: 0;
-      margin-left: 50px;
-      width: 315px;
-    }
-
-    .column2 {
-    /* padding-right: 50px; */
-      padding-left: 0;
-      margin-right: 0;
-      margin-left: 50px;
-      margin-top: 0;
-      width: 315px;
-    }
-
-
-    div span.v-separator {
-      display: flex;
-      width: 99%;
-      height: 330px !important;
-      transform: rotate(90deg);
-      border-left: 2px solid #FFFFFF !important;
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: -220px !important;
-      margin-left: 120px !important;
-      padding: 0 !important;
+    .elementor-2034 .elementor-element.elementor-element-64234fa.e-con {
+       align-self: center;
+       transform: translate(-130px, 45px) !important;
+       transform: scale(1.1);
     }
 
 
@@ -1477,7 +1234,94 @@ div.elementor-shortcode #quantity{
     /* Agencement du bouton commander */
     div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
        padding: 0;
-       margin-left: 145px;
+       margin-left: 547px;
+       width: 198px;
+       height: 55px;
+    }
+
+}
+
+
+
+/*********************************************************************************/
+
+    /* Media query écran tablette */
+@media screen and (min-width: 728px) and (max-width: 737px) {
+    body {
+       width: 100%;
+       margin: 0 !important;
+    }
+
+    /* Page COMMANDER */
+    /* Mise en forme du formulaire en deux colonnes */ 
+    .elementor-2034 .elementor-element.elementor-element-64234fa.e-con {
+       align-self: center;
+       transform: translate(-133px, 50px) !important;
+       transform: scale(1.1);
+    }
+    
+
+    /* Formulaire de commande - police*/
+    div .TitleColumn {
+       font-family: 'Syne',sans serif;
+       font-size: 30px;
+       font-weight: 700;
+       line-height: 36px;
+       letter-spacing: 0em;
+       text-align: center;
+       color: #FFFFFF;
+       padding-bottom: 29px;
+       padding-left: 38px;
+    }
+
+
+    /* Agencement du bouton commander */
+    div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
+       padding: 0;
+       margin-left: 545px;
+       width: 198px;
+       height: 55px;
+    }
+
+}
+
+
+
+/*********************************************************************************/
+    /* Media query écran tablette */
+@media screen and (min-width: 718px) and (max-width: 727px) {
+    body {
+       width: 100%;
+       margin: 0 !important;
+    }
+
+    /* Page COMMANDER */
+    /* Mise en forme du formulaire en deux colonnes */ 
+    .elementor-2034 .elementor-element.elementor-element-64234fa.e-con {
+       align-self: center;
+       transform: translate(-133px, 50px) !important;
+       transform: scale(1.1);
+    }
+    
+
+    /* Formulaire de commande - police*/
+    div .TitleColumn {
+       font-family: 'Syne',sans serif;
+       font-size: 30px;
+       font-weight: 700;
+       line-height: 36px;
+       letter-spacing: 0em;
+       text-align: center;
+       color: #FFFFFF;
+       padding-bottom: 29px;
+       padding-left: 38px;
+    }
+
+
+    /* Agencement du bouton commander */
+    div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
+       padding: 0;
+       margin-left: 545px;
        width: 198px;
        height: 55px;
     }
@@ -1487,96 +1331,180 @@ div.elementor-shortcode #quantity{
 
 
 /*********************************************************************************/
-/* Media query écran mobile */
-@media screen and (min-width: 601px) and (max-width: 659px) {
+    /* Media query écran tablette */
+@media screen and (min-width: 698px) and (max-width: 717px) {
     body {
        width: 100%;
        margin: 0 !important;
     }
 
-
     /* Page COMMANDER */
-    /* Mise en forme du formulaire en une seule colonne */ 
-    .All-form{
-      display: flex;
-      flex-direction: column;
-      margin-left: 0px;
+    /* Mise en forme du formulaire en deux colonnes */ 
+    .elementor-2034 .elementor-element.elementor-element-64234fa.e-con {
+       align-self: center;
+       transform: translate(-140px, 50px) !important;
+       transform: scale(1.1);
     }
     
-    .column1 {
-      padding-right: 0;
-      margin-right: 0;
-      margin-left: 50px;
-      width: 315px;
-      margin-bottom: 100px;
-    }
-
-    .column2 {
-    /* padding-right: 50px; */
-      padding-left: 0;
-      margin-right: 0;
-      margin-left: 50px;
-      margin-top: 0;
-      width: 315px;
-    }
-
-
-    div span.v-separator {
-      display: flex;
-      width: 99%;
-      height: 330px !important;
-      transform: rotate(90deg);
-      border-left: 2px solid #FFFFFF !important;
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: -55px !important;
-      margin-left: -6px !important;
-      padding: 0 !important;
-    }
-
 
     /* Formulaire de commande - police*/
     div .TitleColumn {
        font-family: 'Syne',sans serif;
-       font-size: 22px !important;
+       font-size: 30px;
        font-weight: 700;
        line-height: 36px;
        letter-spacing: 0em;
        text-align: center;
        color: #FFFFFF;
        padding-bottom: 29px;
-       padding-left: 76px !important;
+       padding-left: 38px;
     }
 
 
     /* Agencement du bouton commander */
     div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
        padding: 0;
-       margin-left: 250px;
+       margin-left: 545px;
        width: 198px;
        height: 55px;
     }
 
+}    
+
+
+
+/*********************************************************************************/
+/* Media query écran tablette */
+@media screen and (min-width: 678px) and (max-width: 697px) {
+    body {
+       width: 100%;
+       margin: 0 !important;
+    }
+
+    /* Page COMMANDER */
+    /* Mise en forme du formulaire en deux colonnes */ 
+
+    /* Formulaire de commande - police*/
+    div .TitleColumn {
+       font-family: 'Syne',sans serif;
+       font-size: 30px;
+       font-weight: 700;
+       line-height: 36px;
+       letter-spacing: 0em;
+       text-align: center;
+       color: #FFFFFF;
+       padding-bottom: 29px;
+       padding-left: 38px;
+    }
+
+
+    /* Agencement du bouton commander */
+    div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
+       padding: 0;
+       margin-left: 545px;
+       width: 198px;
+       height: 55px;
+    }
 
      /* Agencement bloc contenant le formulaire */
     .elementor-2034 .elementor-element.elementor-element-64234fa.e-con {
       align-self: center;
-      transform: translate(-21px, 0px) !important;
-      /*transform: scale(1.5) !important;*/
+      transform: translate(-152px, 50px) !important;
+    }
+}    
+
+
+
+/*********************************************************************************/
+/* Media query écran tablette */
+@media screen and (min-width: 660px) and (max-width: 677px) {
+    body {
+       width: 100%;
+       margin: 0 !important;
     }
 
-    .elementor-2034 .elementor-element.elementor-element-64234fa { /*marge en hautdu formulaire*/
-      margin-block-start: 205px !important;
+    /* Page COMMANDER */
+    /* Mise en forme du formulaire en deux colonnes */ 
+
+    /* Formulaire de commande - police*/
+    div .TitleColumn {
+       font-family: 'Syne',sans serif;
+       font-size: 30px;
+       font-weight: 700;
+       line-height: 36px;
+       letter-spacing: 0em;
+       text-align: center;
+       color: #FFFFFF;
+       padding-bottom: 29px;
+       padding-left: 38px;
     }
 
-    /*changer la dimension*/
-    .elementor-2034 .elementor-element.elementor-element-e9eccd5 > .elementor-widget-container {
-      margin: -150px 0px 0px 36px;
-      /*transform-translateX: -70px !important;*/
-      transform: scale(1.1);
+
+    /* Agencement du bouton commander */
+    div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
+       padding: 0;
+       margin-left: 545px;
+       width: 198px;
+       height: 55px;
+    }
+
+     /* Agencement bloc contenant le formulaire */
+    .elementor-2034 .elementor-element.elementor-element-64234fa.e-con {
+      align-self: center;
+      transform: translate(-152px, 50px) !important;
+    }
+}
+
+
+
+/*********************************************************************************/
+/* Media query écran mini-tablette */
+@media screen and (min-width: 601px) and (max-width: 659px) {
+    body {
+       width: 100%;
+       margin: 0 !important;
+    }
+
+    /* Mise en forme police 'Votre commande' */
+    .elementor-2034 .elementor-element.elementor-element-1557c0e > .elementor-widget-container {
+       margin: 0px 0px 0px 0px;
+       font-size: 19px;
+    }
+
+     /* Page COMMANDER */
+    /* Mise en forme du formulaire en deux colonnes */ 
+
+    /* Formulaire de commande - police*/
+    div .TitleColumn {
+       font-family: 'Syne',sans serif;
+       font-size: 30px;
+       font-weight: 700;
+       line-height: 36px;
+       letter-spacing: 0em;
+       text-align: center;
+       color: #FFFFFF;
+       padding-bottom: 29px;
+       padding-left: 38px;
     }
 
 
+    /* Agencement du bouton commander */
+    div .submitButton-Command input.wpcf7-form-control.wpcf7-submit.has-spinner{
+       padding: 0;
+       margin-left: 545px;
+       width: 198px;
+       height: 55px;
+    }
+
+     /* Agencement bloc contenant le formulaire */
+    .elementor-2034 .elementor-element.elementor-element-64234fa.e-con {
+       align-self: center;
+       transform: translate(-233px, -38px) !important;
+    }
+
+    .elementor-2034 .elementor-element.elementor-element-e9eccd5 > .elementor-widget-container{
+       transform: scale(0.6) !important;
+    }    
 } 
 
 
@@ -1868,7 +1796,7 @@ div.elementor-shortcode #quantity{
       margin-right: 0;
       margin-left: 65px;
       width: 315px;
-      margin-bottom: 40px;
+      margin-bottom: 10px;
     }
 
     .column2 {
@@ -1887,9 +1815,9 @@ div.elementor-shortcode #quantity{
       height: 330px !important;
       transform: rotate(90deg);
       border-left: 2px solid #FFFFFF !important;
-      margin-top: 0px;
+      margin-top: -60px !important;
       margin-right: 0px;
-      margin-bottom: -120px !important;
+      margin-bottom: -170px !important;
       margin-left: 182px !important;
       padding: 0 !important;
     }
@@ -2014,5 +1942,7 @@ div.elementor-shortcode #quantity{
 /*********************************************************************************/
 
    
+
+
 
 
