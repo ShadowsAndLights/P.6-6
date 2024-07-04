@@ -1,0 +1,102 @@
+/**
+Theme Name: Digital Agency
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: digital-agency
+Template: astra
+*/
+.all_actu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.bloc_actu img{
+	width: 100%;
+	height: 280px;
+	object-fit: cover;
+}
+h3.title_actu{
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+	color: #c39800;
+}
+.bloc_actu{
+	background-color: #fff8ef;
+	margin: 10px;
+}
+span.content_actu, span.content_actu h3, span.content_actu p{
+	padding: 5px 10px;
+	margin-bottom: 15px;
+}
+div.entry-meta{
+	display: none;
+}
+button.btn_actu{
+	margin: 0 auto;
+}	
+span.content_actu button{
+	background-color: #060957;
+	border-radius: 30px;
+}
+span.content_actu .btn_actu {
+	color: #fff8ef;
+}
+span.content_actu button:hover {
+	color: #c39800;
+}
+span.content_actu {
+    margin bottom: 10px;
+}
+div.bloc_actu{
+	border-radius: 30px;
+}
+div.bloc_actu img{
+	border-radius: 30px 0 30px 0;
+	border: solid 0.5px white;
+}
+#date_actu{
+	color: #060957;
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+span.content_actu p{
+	color: #060957;
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+}
+div.bloc_actu{
+	box-shadow: 10px 5px 5px whitesmoke;
+}
+div#content.site-content{
+	border-top-color: medium solid #c39800;
+    background: linear-gradient(200deg,#fff8ef,#060957,#fff8ef);
+}                                       
+
+h1{
+	color: #fff8ef;
+	font-family: "Montserrat", sans-serif;
+}
+h1, .entry-content h1{
+	display: flex;
+    color: #fff8ef;
+    font-weight: 700px;
+	font-size: 48px;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.Sep_actu{
+	display: bloc;
+	box-sizing: border-box;
+	margin-block-end: 20px;
+    border-top: 5px solid #060957;
+    margin-left: 15px;
+    margin-bottom: 70px;
+    --divider-border-style: solid 64px;
+    --divider-color: var(--e-global-color-7c0ff06 );
+    --divider-border-width: 5px;
+}
